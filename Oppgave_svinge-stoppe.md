@@ -1,7 +1,25 @@
 # Oppgave: Kjøre, svinge og stoppe
 For å bli kjent med blokkene og bilen skal vi få den til å kjøre fram, svinger rundt et hinder, kjøre fram mot en vegg (eller mykt hinder) og stoppe foran den uten å krasje. Bilens sensor framover skal selv se når den nærmere seg veggen og stoppe 2-5 cm foran uten å kjøre inn i veggen.
-
-<bilde av banen>
+```
+--------------------------------
+|                              |
+| #                            |
+| # <-<-<-<-<<-<-<-            |
+| #                ^           |
+|                  |           |
+|                  ^           |
+|             XX   |           |
+|             XX   ^           |
+|                  |           |
+|                  ^           |
+|                  |           |
+|                              |
+|                  O           |
+|                 / \          |
+|                O---O         |
+--------------------------------
+                 start
+```
 
 ## Kjøring og svinging
 

@@ -44,5 +44,18 @@ Overføring av program til micro:bit
 Vi starter med å bli kjent med bilen, hvordan blokkene virker og hvordan bilen oppfører seg.
 Se Oppgave_svinge-stoppe.md
 
-## Følge svart stripe
+# Utforming av bane
+Det er mulig å lage baner med hvilken som helst utforming. Vi kan starte med en sirkel og ende med en bane som har svinger begge veier.
 
+![width:200px](bane.jpg)
+
+Dette forslaget til bane har 90°-svinger begge veier, en 180°-sving og en langside hvor det er mulig å kjøre
+
+## Tape på hvitt papir
+Har prøvd å bruke svart elektriker tape på papir klippet av en rull med hvit bordduk i papir. Erfaringen er at papiret vil krølle seg fordi tapen er elastisk og det er vanskelig å dra den ut og ned på papiret uten å strekke den for mye. Svingene er også en utfordring å få til uten å strekke tapen. Prøvde å krølle den og klippe spor på innsiden av svingen, men endte opp med å sette sammen svingene av små biter tape. Under prøvekjøring opplevde jeg at bilen kjørte av banen fordi det var mellomrom mellom tape-bitene etter å ha klippet dem i to for å rette ut det krøllete papiret.
+
+## Tusj på hvitt papir
+Etter forsøket med tape konkluderte jeg at å tegne banen med en bred, svart tusj på den hvite papirduken hadde vært et bedre alternativ. Husk i så fall at tusjen sannsynligvis trekker gjennom papiret og man derfor må ha noe under når man tegner.
+
+## Tape rett på gulvet
+Dersom du har et litt flatt, lyst gulv er det også mulig å tape rett på gulvet. Avhengig av overflaten på gulvet kan du oppleve at tapen løsner, særlig i svingene der det er mest spenn fordi tapen er strukket ut.
