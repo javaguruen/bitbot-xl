@@ -45,7 +45,7 @@ Vi starter med å bli kjent med bilen, hvordan blokkene virker og hvordan bilen 
 Se Oppgave_svinge-stoppe.md
 
 # Utforming av bane
-Det er mulig å lage baner med hvilken som helst utforming. Vi kan starte med en sirkel og ende med en bane som har svinger begge veier.
+Det er mulig å lage baner med hvilken som helst utforming. Vi starter med en sirkel og en bane som har svinger begge veier:
 
 ![width:200px](bane.jpg)
 
