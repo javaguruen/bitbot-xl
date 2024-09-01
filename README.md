@@ -13,7 +13,7 @@ Velkommen til workshop med BitBit XL og micro:bit. Du skal programmere micro:bit
 ## 12:30 Lunch
 Pizza, ispinner og brus
 
-## Ca. 13:00 Del 2
+## Ca. 13:30 Del 2
 
 1. [Oppgave 2](./Oppgave_svart-stripe.md) er å bruke svart linje-sensoren til å få bilen til å kjøre langs en svart linje. Det er forskjellige baner med økende vanskelighetsgrad
 2. Fri fantasi: Slå deg løs, bruk lys, lyd og andre sensorer til å utforske mulighetene med bilen.
