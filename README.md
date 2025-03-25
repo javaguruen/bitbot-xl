@@ -49,3 +49,61 @@ Sett microbiten i bilen, slå på bilen og trykk på 'A'-knappen.
 
 
 # Oppgave 1: Følge svart linje
+Nå skal du programmere bilen til å følge en svart linje. I menyen av blokker, under `BitBot`ligger `Sensorer og styring`. Der er en blokk for venstre og høyre `Linjesensor`. Den blokken brukes inne i blokken for `Sammenligning` under `Logikk`. 
+
+BitBit-en har to linjesensorer under, en på hver side. Målet er å starte å kjøre med den svarte stripen rett under bilen. Hvis høyre linjesensor blir `1`, betyr det at høyre side av bilen er oppå linjen. Du må da svinge litt til høyre for å få linjen midt under bilen igjen.
+
+Utfordringen er å få bilden til å kjøre raskest mulig gjennom banen, men kjører du for fort kan du kjøre ut av banen. Du kan også justere på hvor mye du svinger når linjesensoren markerer at du er oppå linjen. Svinger du for lite havner du straks på linjen igjen og må svinge mange ganger, noe som tar tid.
+
+Målet er å få bilen til å kjøre rundt hele den store banen. Øv gjerne på en av de mindre i starten inntil du begynner å få det til.
+
+### Ekstraoppgave:
+1. Klarer du å få bilen til å kjøre enda litt raskere og likevel holde seg på linjen?
+
+# Oppgave 2: Avstandssensor
+Bilen har også en avstandssensor. Den kan måle antall cm til et hinder foran seg. `Les ultralydsensor som cm` passer inn i sammenligningsblokken slik som linjesensoren. Kan du utvide programmet ditt slik at bilen stopper hvis noe er minder enn 5 cm fra den og kjører ellers?
+
+# Oppgave 3: Fjernkontroll
+For å løse denne oppgaven trenger du en microbit til. Under `Radio` er det en del blokker som kan brukes for å kommunisere mellom microbitene. En microbit står i bilen og mottar beskjed om å kjøre eller ikke, den andre microbiten holder du i hånden og styrer med.
+
+Du må lage to programmer, ett til bilen og ett som er fjernkontroll. 
+
+### Fjernkontrollen
+Vi starter med fjernkontrollen:
+Lage et nytt prosjekt som du kaller `fjernstyring-kontroll`
+1. `Ved start` må du bruke blokken `radio sett gruppe x` hvor x er et tall du må velge selv og som ingen andre bruker samtidig. Husk å også sette hvilken modell av BitBit du bruker.
+1. Send tekst-kommandoer til bilen når knappene trykke ved å bruke blokken `radio send tekst`. Bilen skal lese teksten som kommer og starte eller stoppe å kjøre avhengig av hvilken tekst som er mottatt.
+
+```
+Hvis `knapp A+B trykkes` så
+   send tekst "begge"
+ellers hvis `knapp A trykkes` så 
+   send tekst "hoyre"
+ellers hvis `knapp B trykkes` så 
+   send tekst "venstre"
+ellers hvis `logo er nedtrykket` så 
+   send tekst "stopp"
+```
+
+### Mottaker i bilen
+Lage et nytt prosjekt som du kaller `fjernstyring-bil`. Programmet skal reagere på kommandoene som den mottar. Svinge til venste gjøres ved å først bruke blokken `kjør venstre motor framover med fart 0%`og `kjør høyre motor framover med fart 30%`.
+
+1. `Ved start` må du bruke blokken `radio sett gruppe x` hvor x det samme tallet som du brukte i fjernekontrollen. Husk å også sette hvilken modell av BitBit du bruker.
+1. Bruk radio-blokken `når radio mottar receivedString`. `receivedString` er en variabel som inneholder kommandoen sendt fra fjernkontrollen og kan brukes i en sammenligningsblokk.
+
+```
+Hvis 'venstre' = receivedString så 
+   sving venstre
+ellers hvis 'hoyre' = receivedString så 
+   sving høyre
+ellers hvis 'begge' = receivedString så 
+   kjør framover
+ellers hvis 'stopp' = receivedString så
+   brems 
+```
+
+Last programmene ned på hver sin microbit og kjør...
+
+### Ekstraoppgaver:
+1. Kan du også bruke lysene på armene til bilen? De kan f.eks. blinke blått som en politibil.
+2. Du kan også legge på en sirene som om bilen har utrykning.
