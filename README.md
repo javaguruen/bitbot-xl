@@ -1,11 +1,11 @@
 # BitBot XL-workshop
 
-Velkommen til workshop med BitBit XL og micro:bit. Du skal programmere micro:bit-en til å styre bilen. Det er litt fritt program, men vi har laget to "oppgaver" som utgangspunkt for dagens workshop.
+Velkommen til workshop med BitBit XL og microbit. Du skal programmere microbit-en til å styre bilen. Det er litt fritt program, men vi har laget tre "oppgaver" som utgangspunkt for dagens workshop.
 
 ## 12:00 - 13:30 Workshop del 1
 
-1. Det blir en kort introduksjon til editoren [makecode](https://makecode.microbit.org/), micro:bit og BitBit-en
-1. Dere skal lage et enkelt program og overføre til micro:biten.
+1. Det blir en kort introduksjon til editoren [makecode](https://makecode.microbit.org/){:target="_blank"}, microbit og BitBit-en
+1. Dere skal lage et enkelt program og overføre til microbiten.
 1. Dere starter på [oppgave 1](./Oppgave_svart-stripe.md) som er å få bilen til å bruke sensoren sin til å følge en svart linje.
 
 ## 13:30 - 14:15 Lunch
@@ -35,7 +35,7 @@ For at ikke programmet skal starte med en gang bilen slås på, bruker vi blokke
 1. Koble til microbit-en
 1. Trykk på de tre `...` til høyre for `Last ned`-knappen og velg `Connect device` og `neste`.
 1. Trykk på `Pair`-knapp
-1. I vinduet som kommer opp, velg 'bbc micro:bit' og knappen `connect`
+1. I vinduet som kommer opp, velg 'bbc microbit' og knappen `connect`
 
 Dette er for å sette opp en kobling mellom PC-en og microbit-en og trengs å gjøres bare første gang du kobler til en microbit. For å overføre programmet fra nettleseren til microbit-en, trenger du bare å trykke på knappen `Last ned`.
 
