@@ -4,9 +4,9 @@ Velkommen til workshop med BitBit XL og microbit. Du skal programmere microbit-e
 
 ## 12:00 - 13:30 Workshop del 1
 
-1. Det blir en kort introduksjon til editoren [makecode](https://makecode.microbit.org/){:target="_blank"}, microbit og BitBit-en
-1. Dere skal lage et enkelt program og overføre til microbiten.
-1. Dere starter på [oppgave 1](./Oppgave_svart-stripe.md) som er å få bilen til å bruke sensoren sin til å følge en svart linje.
+1. Det blir en kort introduksjon til editoren [makecode](https://makecode.microbit.org/), microbit og BitBit-en
+1. Dere skal lage et enkelt program og overføre til microbiten for å se at den kjører.
+1. Dere starter på oppgaven Følge svart linje som er å få bilen til å bruke sensoren sin til å følge en svart linje.
 
 ## 13:30 - 14:15 Lunch
 
@@ -27,7 +27,7 @@ Bruk nettleser, helst Chrome. Editor er på adressen: https://makecode.microbit.
 1. Merk at ingen av blokkene under `BitBot PRO` kan brukes fordi de tilhører en annen bilmodell.
 
 ### Få bilen til å kjøre:
-For å bruke riktig bilmodell, legg blokken `velg BitBot modell ..``Ved start` og velg `XL` i listen av tilgjengelige modeller.
+For å bruke riktig bilmodell, legg blokken `velg BitBot modell ...` inn i `Ved start` og velg `XL` i listen av tilgjengelige modeller.
 
 For at ikke programmet skal starte med en gang bilen slås på, bruker vi blokken `Når knapp 'A' trykkes`. Til å begynne med skal du få filen til å kjøre framover med fart 30% i 2 sekunder (2000 millisekunder) og så svinge til høyre med fart 30% i 2 sekunder.
 
@@ -61,7 +61,7 @@ Målet er å få bilen til å kjøre rundt hele den store banen. Øv gjerne på 
 1. Klarer du å få bilen til å kjøre enda litt raskere og likevel holde seg på linjen?
 
 # Oppgave 2: Avstandssensor
-Bilen har også en avstandssensor. Den kan måle antall cm til et hinder foran seg. `Les ultralydsensor som cm` passer inn i sammenligningsblokken slik som linjesensoren. Kan du utvide programmet ditt slik at bilen stopper hvis noe er minder enn 5 cm fra den og kjører ellers?
+Bilen har også en avstandssensor (øynene foran). Den kan måle antall cm til et hinder foran seg. `Les ultralydsensor som cm` passer inn i sammenligningsblokken slik som linjesensoren. Kan du utvide programmet ditt slik at bilen stopper hvis noe er minder enn 5 cm fra den og kjører ellers?
 
 # Oppgave 3: Fjernkontroll
 For å løse denne oppgaven trenger du en microbit til. Under `Radio` er det en del blokker som kan brukes for å kommunisere mellom microbitene. En microbit står i bilen og mottar beskjed om å kjøre eller ikke, den andre microbiten holder du i hånden og styrer med.
